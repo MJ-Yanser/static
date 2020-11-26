@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    </title>
+    <style>
+        .box{
+            width: 150px;
+            height: 200px;
+            line-height: 150px;
+            text-align: center;
+            border: 5px blue solid;
+            margin: 50px;
+            float: left;
+            font-size: 26px;
+        }
+        .rotate:hover{
+            transform: rotate(30deg);
+        }
+
+        .translate:hover{
+            transform: translate(20px,15px);
+        }
+
+        .scale:hover{
+            transform: scale(-2);
+        }
+    </style>
+</head>
+<body>
+    <div class="box rotate">旋转</div>
+    <div class="box translate">移动</div>
+    <div class="box scale">缩放</div>
+</body>
+</html>
